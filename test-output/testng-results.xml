@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-01T01:07:15 IST" name="ProjectAutomation Suite" finished-at="2023-05-01T01:07:51 IST" duration-ms="35217">
+    <groups>
+    </groups>
+    <test started-at="2023-05-01T01:07:15 IST" name="Project1 TestCases" finished-at="2023-05-01T01:07:51 IST" duration-ms="35217">
+      <class name="com.project1.qa.testcases.Search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Search@470734c3]" started-at="2023-05-01T01:07:47 IST" name="setup" finished-at="2023-05-01T01:07:48 IST" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySearchWithInvalidProduct()[pri:0, instance:com.project1.qa.testcases.Search@470734c3]" started-at="2023-05-01T01:07:48 IST" name="VerifySearchWithInvalidProduct" finished-at="2023-05-01T01:07:48 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Search@470734c3]" started-at="2023-05-01T01:07:48 IST" name="teardown" finished-at="2023-05-01T01:07:49 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Search@470734c3]" started-at="2023-05-01T01:07:49 IST" name="setup" finished-at="2023-05-01T01:07:50 IST" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:0, instance:com.project1.qa.testcases.Search@470734c3]" started-at="2023-05-01T01:07:50 IST" name="verifySearchWithValidProduct" finished-at="2023-05-01T01:07:50 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Search@470734c3]" started-at="2023-05-01T01:07:50 IST" name="teardown" finished-at="2023-05-01T01:07:51 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.project1.qa.testcases.Search -->
+      <class name="com.project1.qa.testcases.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:28 IST" name="setup" finished-at="2023-05-01T01:07:30 IST" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidEmailAndInvalidPassword()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:30 IST" name="VerifyLoginWithValidEmailAndInvalidPassword" finished-at="2023-05-01T01:07:31 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:31 IST" name="teardown" finished-at="2023-05-01T01:07:31 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:31 IST" name="setup" finished-at="2023-05-01T01:07:33 IST" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VeryLoginWIthNoCredentials()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:33 IST" name="VeryLoginWIthNoCredentials" finished-at="2023-05-01T01:07:33 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeryLoginWIthNoCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:33 IST" name="teardown" finished-at="2023-05-01T01:07:33 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:33 IST" name="setup" finished-at="2023-05-01T01:07:35 IST" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithinvalidcrdentials()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:35 IST" name="loginwithinvalidcrdentials" finished-at="2023-05-01T01:07:36 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidcrdentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:36 IST" name="teardown" finished-at="2023-05-01T01:07:36 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:36 IST" name="setup" finished-at="2023-05-01T01:07:38 IST" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyloginwithInvalidEmailAndValidPassword()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:38 IST" name="verifyloginwithInvalidEmailAndValidPassword" finished-at="2023-05-01T01:07:38 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:38 IST" name="teardown" finished-at="2023-05-01T01:07:38 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:39 IST" name="setup" finished-at="2023-05-01T01:07:41 IST" duration-ms="1756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:1, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:41 IST" name="loginwithvalidcredentials" data-provider="validCredentialsSupplier" finished-at="2023-05-01T01:07:41 IST" duration-ms="657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavankumarreddy9989@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:41 IST" name="teardown" finished-at="2023-05-01T01:07:42 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:42 IST" name="setup" finished-at="2023-05-01T01:07:43 IST" duration-ms="1921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:1, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:43 IST" name="loginwithvalidcredentials" data-provider="validCredentialsSupplier" finished-at="2023-05-01T01:07:43 IST" duration-ms="11" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+at com.project1.qa.pages.LoginPage.login(LoginPage.java:45)
+at com.project1.qa.testcases.Login.loginwithvalidcredentials(Login.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:44 IST" name="teardown" finished-at="2023-05-01T01:07:44 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:44 IST" name="setup" finished-at="2023-05-01T01:07:46 IST" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginwithvalidcredentials(java.lang.String,java.lang.String)[pri:1, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:46 IST" name="loginwithvalidcredentials" data-provider="validCredentialsSupplier" finished-at="2023-05-01T01:07:46 IST" duration-ms="17" status="FAIL">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+at com.project1.qa.pages.LoginPage.login(LoginPage.java:45)
+at com.project1.qa.testcases.Login.loginwithvalidcredentials(Login.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidcredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Login@8f2ef19]" started-at="2023-05-01T01:07:46 IST" name="teardown" finished-at="2023-05-01T01:07:47 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.project1.qa.testcases.Login -->
+      <class name="com.project1.qa.testcases.Register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:16 IST" name="setup" finished-at="2023-05-01T01:07:19 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AccountRegistrationWithMandatoryFields()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:19 IST" name="AccountRegistrationWithMandatoryFields" finished-at="2023-05-01T01:07:20 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountRegistrationWithMandatoryFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:20 IST" name="teardown" finished-at="2023-05-01T01:07:20 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:20 IST" name="setup" finished-at="2023-05-01T01:07:22 IST" duration-ms="1884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteringAccountByProvidingAllFields()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:22 IST" name="VerifyRegisteringAccountByProvidingAllFields" finished-at="2023-05-01T01:07:23 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteringAccountByProvidingAllFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:23 IST" name="teardown" finished-at="2023-05-01T01:07:23 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:23 IST" name="setup" finished-at="2023-05-01T01:07:25 IST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyResgisterAccountWithExistingEMailAddress()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:25 IST" name="VerifyResgisterAccountWithExistingEMailAddress" finished-at="2023-05-01T01:07:26 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyResgisterAccountWithExistingEMailAddress -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:26 IST" name="teardown" finished-at="2023-05-01T01:07:26 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:26 IST" name="setup" finished-at="2023-05-01T01:07:28 IST" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingDetails()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:28 IST" name="verifyRegisteringAccountWithoutFillingDetails" finished-at="2023-05-01T01:07:28 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingDetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.project1.qa.testcases.Register@537f60bf]" started-at="2023-05-01T01:07:28 IST" name="teardown" finished-at="2023-05-01T01:07:28 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.project1.qa.testcases.Register -->
+    </test> <!-- Project1 TestCases -->
+  </suite> <!-- ProjectAutomation Suite -->
+</testng-results>
